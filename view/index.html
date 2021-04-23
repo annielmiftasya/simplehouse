@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+	
+	
+	
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Simple House Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="/css/templatemo-style.css" rel="stylesheet" />
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+	<script type="text/javascript" src="js/bootstrap.js"></script>	
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+	
+	<div  class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="/img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Simple House</h1>
+								<h6 class="tm-site-description">new restaurant template</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Welcome to Simple House</h2>
+				<p class="col-12 text-center">
+					Food is everything we are. It’s an extension of nationalist feeling, ethnic feeling, your personal history, your province, your region, your tribe, your grandma. It’s inseparable from those from the get-go</p>
+			</header>
+
+		<div id="app">
+			<div class="tm-paging-links">
+				<nav>
+					<ul>
+						
+						<li class="tm-paging-item"><a v-on:click="pizzacall()" class="tm-paging-link">Pizza</a></li>
+						<li class="tm-paging-item"><a v-on:click="noodlecall()" class="tm-paging-link">Noodle</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- Gallery -->
+			
+				<div id="tm-gallery-page-noodle" :class="style_secondpage">
+					<div class="tm-gallery-page">	
+					
+						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item" v-for="isi_noodle in noodle">
+							<figure>
+								<img :src="isi_noodle.foto" alt="Image " class="img-fluid tm-gallery-img" style="width:400px ; height:320px;"/>
+								<figcaption>
+
+										<h4 class="tm-gallery-title">{{isi_noodle.judul}} </h4>
+										<p class="tm-gallery-description">{{isi_noodle.isi}}</p>
+										<p class="tm-gallery-price">{{isi_noodle.harga}}</p>
+								</figcaption>
+							</figure>
+						</article>
+				</div> 
+				</div><!-- gallery page 2 -->
+				<!-- gallery page 1 -->
+				 
+					<div id="tm-gallery-page-pizza" :class="style_firstpage">
+						<div class="tm-gallery-page">	
+						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item" v-for="isi_pizza in pizza">
+							<figure>
+								<img :src="isi_pizza.gambar" alt="Image " class="img-fluid tm-gallery-img" style="width:400px ; height:320px;"/>
+								<figcaption>
+
+										<h4 class="tm-gallery-title">{{isi_pizza.title}} </h4>
+										<p class="tm-gallery-description">{{isi_pizza.content}}</p>
+										<p class="tm-gallery-price">{{isi_pizza.price}}</p>
+								</figcaption>
+							</figure>
+						</article>
+					</div>
+					</div>
+				</div>
+					 <!-- gallery page 1 -->
+				
+			
+
+				<!-- gallery page 2 -->
+				<div class="tm-section tm-container-inner">
+					<div id="app2" class="row">
+						<div class="col-md-6" >
+						
+							<marquee width="100%" direction="up" height="300px">
+							
+								<figure class="tm-description-figure"v-for="isi_picture in picture">
+									<img :src="isi_picture.pict" alt="Image" class="img-fluid" />
+								</figure>
+							</marquee>
+						</div>
+							<div class="col-md-6">
+								<div class="tm-description-box"> 
+									<h4 class="tm-gallery-title">Memory in our restaurant</h4>
+									<p class="tm-mb-45">Research has proven that our memories of the past influence what we eat, the ingredients we use and how we cook our food. Memories create our story and food fills them with colour, flavour and aroma. This canvas helps define who we are, where we’ve come from and all that we care about. I’m living proof of that and my history, experiences and knowledge have all influenced my kitchen. </p>
+								</div>
+							</div>
+								
+							
+					
+						
+					</div>
+				</div>
+
+</main>
+			
+			
+
+		<footer class="tm-footer text-center">
+			
+			
+			<p>Copyright &copy; 2020 Simple House 
+            
+				| Design: <a rel="nofollow">Anniel Miftasya</a></p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		var vm = new Vue({   
+				 el: '#app',
+				 data: {
+				
+					pizza:[],
+					noodle:[],
+					style_firstpage:'show_firstpage',
+					style_secondpage:'none_secondpage'
+					  },
+  
+				 methods: {
+	
+	  
+	  pizzacall: function() {
+		this.style_firstpage ='show_firstpage';
+		this.style_secondpage='none_secondpage';
+		
+		axios.get('http://localhost:5000/simplehouse/ambil').then(response => this.pizza=response.data);
+  	},
+		noodlecall: function() {
+			this.style_firstpage = 'none_firstpage';
+			this.style_secondpage='show_secondpage';
+			
+		axios.get('http://localhost:5000/simplehouse/ambilah').then(response => this.noodle=response.data)
+	},
+ 
+	upDate_pizza: function() {
+		axios.get('http://localhost:5000/simplehouse/ambil').then(response => this.pizza=response.data);
+	},
+
+	upDate_noodle: function() {
+	axios.get('http://localhost:5000/simplehouse/ambilah').then(response => this.noodle=response.data);
+	}
+   
+  }   ,
+  
+			   mounted() {
+							axios.get('http://localhost:5000/simplehouse/ambil').then(response => this.pizza=response.data);
+				
+  
+							this.upDate_pizza();
+							this.timer = setInterval(this.upDate_pizza, 1000)
+p
+							this.upDate_noodle();
+                         	this.timer = setInterval(this.upDate_noodle, 1000)
+  
+				}
+			})
+
+           ///object vue kedua
+
+		   var vm2 = new Vue({   
+               el: '#app2',
+               data: {
+                      picture:[]
+                    },
+
+               methods: {
+  
+  upDate_picture: function() {
+  axios.get('http://localhost:5000/simplehouse/ambilp').then(response => this.picture=response.data);
+}
+
+
+}   ,
+
+             mounted() {
+                          axios.get('http://localhost:5000/simplehouse/ambilp').then(response => this.picture=response.data);
+              
+                          this.upDate_picture();
+                          this.timer = setInterval(this.upDate_picture, 1000)
+
+                          
+
+              }
+          })
+      
+
+     
+		</script>
+</body>
+</html>
