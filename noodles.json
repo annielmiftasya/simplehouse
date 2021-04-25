@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "606980f90716715ad0259024"
+  },
+  "isi": "Sajian berbahan dasar mie ini jadi ikonik kuliner terknal di Negeri Sakura. Umumnya tersaji dengan kaldu gurih dan daging cashu yang lembut juicy serta sayuran.",
+  "harga": "$50",
+  "foto": "https://i.pinimg.com/564x/8e/4c/8e/8e4c8e1a3e801a56633102850e738072.jpg",
+  "__v": 0,
+  "judul": "Ramen"
+},{
+  "_id": {
+    "$oid": "606983480716715ad0259026"
+  },
+  "judul": "Spanish Fideos",
+  "isi": "Mie tipis berasal dari Spanyol yabf biasa menyandangkan dengan paella. Mie kuah yang kental dimasak dengan teknik clow cooked.",
+  "harga": "$88",
+  "foto": "https://i.pinimg.com/564x/b3/62/4e/b3624e3604a761bc319a92e9ec8a33e1.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "606987960716715ad025902a"
+  },
+  "judul": "Spätzle",
+  "isi": "Mie khas Jerman berisi mie telur berukuran kecil dan berbumbu. Mie tersebut terbuat dari adonan yang sama seperti membuat pangsit",
+  "harga": "$45",
+  "foto": "https://i.pinimg.com/564x/f4/34/84/f4348485c5f926418e7bd312ea303509.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "606995820716715ad025902b"
+  },
+  "judul": "Mie Udon",
+  "isi": "Mie ini dikenal sebagai mie putih Jepang. Udon memiliki beragam bentuk dan ketebalan. Mie udon umumnya digunakan sebagai isi sup",
+  "harga": "$55",
+  "foto": "https://i.pinimg.com/564x/60/18/04/601804c7e2233bfa2ac53f8309e5e343.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "606998780716715ad025902c"
+  },
+  "judul": "Jjajangmyeon",
+  "isi": "Korea punya jjajangmyeon, mie yang diberi saus hitam kecokelatan, yang terbuat dari chunjang, kecap asin, daging, dan sebagainya",
+  "harga": "$68",
+  "foto": "https://i.pinimg.com/564x/99/61/56/99615636a072231436ff4dc31e8d3d78.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60699caf0716715ad0259030"
+  },
+  "judul": "Soto Mie",
+  "isi": "Hidangan yang berisi mie, bihun, kentang, tomat, lobak, wortel, risol, daging, kikil. Kemudian disiram kuah soto hangat membuat rasanya makin unik",
+  "harga": "$52",
+  "foto": "https://i.pinimg.com/564x/da/af/a6/daafa60e95384375df271874fb05e29a.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6069a3010716715ad0259031"
+  },
+  "judul": "Bakmi Jawa",
+  "isi": "Mie jawa bisa kamu temui di sudut-sudut kota Jogja. Pelengkap mie ini antara lain seperti ayam, kol, tomat, daun bawang, acar, bawang goreng",
+  "harga": "$32",
+  "foto": "https://i.pinimg.com/564x/ba/44/57/ba4457fdf5ba6130788f3e6eb4b6af24.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6069a4d20716715ad0259032"
+  },
+  "judul": "Bakmi Jawa",
+  "isi": "Hidangan terdiri berbagai bahan  mie, kucai,cabai, jeruk nipis, kacang cincang, ketumbar, beserta irisan tahu dan telur, kepiting, udang atau daging ayam.",
+  "harga": "$42",
+  "foto": "https://i.pinimg.com/564x/38/10/73/38107317c7b9d2dc6e43a75d5fe989b8.jpg",
+  "__v": 0
+}]

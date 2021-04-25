@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "60686f6070ac6865b8aa36b0"
+  },
+  "title": "Neapolitan",
+  "content": " Pizza ini adalah pizza pertama yang diciptakan. Berasal dari kota Napoli, biasanya dijual di jalanan. Toppingnya hanya berisi ikan kecil atau anchovy, keju mozzarella dan tomat.",
+  "price": "$87",
+  "gambar": "https://i.pinimg.com/564x/71/45/3f/71453ffe85135207f3ba44ac2734b96f.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "606872f970ac6865b8aa36b3"
+  },
+  "title": " Marinara",
+  "content": " Pizza tradisional versi neapolitan ini menggunakan anchovy sebagai topping. Tapi tidak menggunakan tomat, melainkan menggantinya dengan bawang putih, dan oregano",
+  "price": "$50",
+  "gambar": "https://i.pinimg.com/564x/33/6e/84/336e8487a3099d1e5ba148d393499a29.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6068798870ac6865b8aa36b4"
+  },
+  "title": "Capricciosa",
+  "content": " Pizza capricciosa dilapisi dengan keju mozzarella segar, tomat, jamur kancing, artichoke, dan zaitun. Pinggiran pizza dibuat sangat tipis sehingga rasanya renyah, dan gurih",
+  "price": "$67",
+  "gambar": "https://i.pinimg.com/564x/d1/e1/a1/d1e1a1adf40e0dedf311c08b08bd653e.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60687a3870ac6865b8aa36b5"
+  },
+  "title": "Ai quattro formagi",
+  "content": "Pizza ini menggunakan empat kombinasi keju yang berbeda. Gabungan dari keju mozzarella, dan tiga keju lokal khas Italia seperti parmesan atau parmiiano-reggiano, ricotta, dan gorgonzola. ",
+  "price": "$88",
+  "gambar": "https://i.pinimg.com/564x/06/2c/b0/062cb013a86e6fefb0ef42d6d7e010c7.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60687c3570ac6865b8aa36b6"
+  },
+  "title": "Pugliese",
+  "content": "Pizza autentik khas Italia yang belum banyak orang tahu. Terbuat dari zaitun yang dipetik langsung dari wilayah Puglia. Dihindangkan dengan bawang, keju mozzarella dan saus tomat.",
+  "price": "$77",
+  "gambar": "https://i.pinimg.com/564x/64/e3/12/64e3127172f60556333c23f34eb5fd72.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60687e8070ac6865b8aa36b7"
+  },
+  "title": "Focaccia",
+  "content": "Pizza ini yang sudah ada sejak berabad silam. Dibuat tanpa menggunakan keju atau tomat, dan hanya dibumbui bawang yang ditumis, minyak zaitun, dan berbagai topping gurih.",
+  "price": "$67",
+  "gambar": "https://i.pinimg.com/564x/8b/c2/53/8bc25397db09019264a2382f5fcc241f.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6068813a70ac6865b8aa36b8"
+  },
+  "title": "Sicilia",
+  "content": "Pizza ini digemari banyak orang karena rasanya yang enak dan mengenyangkan. Toppingnya juga dikenal beragam, mulai dari kacang, telur rebus, seafood, sampai zaitun hijau.",
+  "price": "$80",
+  "gambar": "https://i.pinimg.com/564x/b9/a9/6c/b9a96c89d1348347524418f7056d7649.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "606dba901c34de9bfce817f6"
+  },
+  "title": "Chicago Pizza",
+  "content": " Chicago pizza dibuat pertama kali di kota Chicago. Pizza ini tercipta di tahun 1900-an saat imigran Italia di Chicago mencari makanan mirip pizza Neapolitan yang mereka cintai.",
+  "price": "$90",
+  "gambar": "https://i.pinimg.com/564x/42/95/e7/4295e7092247226438cd8faf9eee5f9a.jpg",
+  "__v": 0
+}]
